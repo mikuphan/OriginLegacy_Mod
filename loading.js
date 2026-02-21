@@ -61,20 +61,8 @@ disagreeBtn_setup.addEventListener("click", resetAnimation_setup);
 
 // Hàm gỡ bỏ event listener
 function removeEventListener_setup() {
-    clicke_setup.removeEventListener("click", startAnimation_setup);
-    disagreeBtn_setup.removeEventListener("click", resetAnimation_setup);
-
-    setTimeout(() => {
-        showPopup2_alert(
-            `Version 2.0.00 has been released, would you like to open it?`,
-            `Open`,
-            `No`,
-            () => {
-                window.location.href = "https://quandz24-ui.github.io/OriginWEB";
-            },
-            () => {}
-        );
-    }, 1500);
+  clicke_setup.removeEventListener("click", startAnimation_setup);
+  disagreeBtn_setup.removeEventListener("click", resetAnimation_setup);
 }
 
 restoreSettings_finger_pass();
