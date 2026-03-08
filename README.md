@@ -1,8 +1,6 @@
 # OriginOSWeb_Mod
 OriginOS Web Modded, made by mikuphan
 
-Link: https://chomperhypelinux.github.io/OriginOSWeb_Mod
-
 We added (and changed):
 
 Changed to 2d icon
